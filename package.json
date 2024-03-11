@@ -1,0 +1,21 @@
+{
+  "name": "@anio-js-foundation/ansi-escape-colorize",
+  "version": "1.0.0",
+  "description": "Colorize strings with ANSI escape color sequences.",
+  "main": "./dist/package.mjs",
+  "author": "Anio Software <info@anio.software>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anio-js-foundation/ansi-escape-colorize.git"
+  },
+  "devDependencies": {
+    "@anio-software/npm-package-bundler": "^1.0.0"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/npm-package-bundler ."
+  },
+  "files": [
+    "./dist/package.mjs"
+  ]
+}
